@@ -152,8 +152,15 @@ margin-bottom:-50px;
 
   .story{
 
-padding-right:15px;
-  	
+padding-right:20px;
+
   }
+
+img{
+
+	max-width:100%;
+
+}
+
 
 }

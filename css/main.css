@@ -68,7 +68,7 @@ h2{
 	margin-top:-100px;
 	min-width:40%;
 	background: #ffffff;
-	height:1500px;
+	height:100%;
 	padding:25px;
 }
 
@@ -87,7 +87,7 @@ h2{
 	padding:5px;
 	text-align:center;
 	z-index:1000;
-
+	margin-right: 0px;
 	-webkit-transform-style: background;
     -webkit-transition: 0.5s;
     -moz-transform-style: background;
@@ -118,4 +118,14 @@ background: #033E6B;
 
 	margin-bottom:50px;
 
+}
+
+
+.tilt {
+
+-webkit-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+writing-mode: tb-rl;
+	
 }

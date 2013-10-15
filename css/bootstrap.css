@@ -4515,8 +4515,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: red;
+  color: #ffffff;
   background-color: transparent;
+  border-bottom:solid 2px;
+
+  
 }
 
 .navbar-inverse .navbar-nav > .active > a,

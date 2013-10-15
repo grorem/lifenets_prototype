@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "font";
+  src: url("AftaSansThin-Regular-webfont.eot");
+  src: local("?"),
+    url("AftaSansThin-Regular-webfont.woff") format("woff"),
+    url("AftaSansThin-Regular-webfont.ttf") format("truetype"),
+    url("AftaSansThin-Regular-webfont.svg") format("svg");
+  }
+
+
+body{
+
+	font-family: font;
+	background: url('../img/dust.png');
+
+}
+
+
+p{
+
+font-size:16;
+
+}
+
+h1{
+	font-family: font;
+	color:	#ffffff;
+	font-size: 100px;
+
+}
+
+
+h2{
+	font-family: font;
+	color: #033E6B;
+
+}
+
+
+
+.nav li a{
+
+	color: #ffffff;
+	font-size: 18px;
+
+}
+
+
+
+.header{
+	width:100%;
+	height:450px;
+	padding:100px;
+	text-align: center; 
+	background: url('../img/lviv_map.png');
+}
+
+.headerOverlay{
+	width:100%;
+	height:450px;
+	background: #033E6B;
+	
+	
+}
+
+.main{
+	
+	margin-top:-100px;
+	min-width:40%;
+	background: #ffffff;
+	height:1500px;
+	padding:25px;
+}
+
+
+
+
+
+
+.donate{
+	position:fixed;
+	top:150;
+	right:0;
+	background-color: #FF9200;
+	height:70px;
+	width:175px;
+	padding:5px;
+	text-align:center;
+	z-index:1000;
+
+	-webkit-transform-style: background;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: background;
+    -moz-transition: 0.5s;
+
+
+}
+
+
+.donate:hover{
+
+background: #033E6B;
+
+	-webkit-transform-style: background;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: background;
+    -moz-transition: 0.5s;
+}
+
+.donate h4{
+	font-family: font;
+	color: #ffffff;
+
+
+}
+
+.story{
+
+	margin-bottom:50px;
+
+}

@@ -164,3 +164,37 @@ img{
 
 
 }
+
+
+
+@media screen and (max-width: 760px) {
+  @-ms-viewport {
+    width: 320px;
+    h1
+  }
+
+  h1 {
+    font-size: 55px;
+    text-align:center;
+  }
+
+  p{
+
+  	
+
+  }
+
+  .story{
+
+padding-right:20px;
+
+  }
+
+img{
+
+	max-width:100%;
+
+}
+
+
+}

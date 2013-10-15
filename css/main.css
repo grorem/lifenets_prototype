@@ -131,3 +131,29 @@ writing-mode: tb-rl;
 margin-bottom:-50px;
 }
 
+
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+    h1
+  }
+
+  h1 {
+    font-size: 55px;
+    text-align:center;
+  }
+
+  p{
+
+  	
+
+  }
+
+  .story{
+
+padding-right:15px;
+  	
+  }
+
+}

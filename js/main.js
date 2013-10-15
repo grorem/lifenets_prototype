@@ -42,3 +42,22 @@ $('.donate').mouseenter(function(){
 
 
 });
+
+
+$('ul.navbar-nav').click(function(){
+
+	$('ul.navbar-nav').slideUp(500);
+    
+
+
+});
+
+
+
+$('.navbar-toggle').click(function(){
+
+	$('ul.navbar-nav').slideDown(500);
+    
+
+
+});
